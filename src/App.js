@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { Photo } from './components/Photos';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
+import { Photos } from './components/Photos';
 
 function App() {
   return (
   <Provider store={store}>
-    <Photo/>
+    <Photos></Photos>
 
   </Provider>
   

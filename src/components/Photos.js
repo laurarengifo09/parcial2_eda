@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchPhotos } from '../actions/action';
 
 
-export const Photo = () => {
+ export const Photos = () => {
   const dispatch = useDispatch();
   const photos = useSelector((state) => state.photos.photos);
   const loading = useSelector((state) => state.photos.loading);
@@ -33,17 +33,18 @@ export const Photo = () => {
     <div>
       <h1>Photos</h1>
       <button onClick={handleButtonClick}>Fetch photos</button>
-      <div className="photos-list">
+      <div className="lista">
         {photos.map((photo) => (
-          <div key={photo.id} className="photo-item">
+          <div key={photo.id} className="item">
             <img src={photo.thumbnailUrl} alt={photo.title} />
-            <div className="photo-title">{photo.title}</div>
+            <div className="title">{photo.title}</div>
           </div>
         ))}
       </div>
     </div>
   );
 };
+
 
 
 
