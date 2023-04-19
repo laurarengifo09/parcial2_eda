@@ -1,0 +1,33 @@
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 180px;
+    margin-bottom: 5px;
+  }
+  
+  
+
+  .titulo{
+    color: rgb(30, 32, 32);
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+  }
+
+  .btn{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+

@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './store/store';
 import { Photos } from './components/Photos';
 
+
 function App() {
   return (
   <Provider store={store}>
