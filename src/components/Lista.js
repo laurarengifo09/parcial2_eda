@@ -14,7 +14,7 @@ export const Lista = () => {
         {photos.map((photo) => (
           <div key={photo.id} className="item">
             <img src={photo.thumbnailUrl} alt={photo.title} />
-            <div className="title">{photo.title}</div>
+            <div className="text-lg font-bold mt-4">{photo.title}</div>
           </div>
         ))}
       </div>

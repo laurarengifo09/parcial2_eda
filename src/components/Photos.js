@@ -24,9 +24,9 @@ import { Lista } from './Lista';
   };
 
   return (
-    <div>
+    <div id='b'>
       <h1 className='titulo'>PHOTOS</h1>
-      <button classname ="btn" onClick={handleButtonClick}>Cargar</button>
+      <button classname='a' id="a" onClick={handleButtonClick}>Cargar</button>
      <Lista></Lista>
     </div>
   );
